@@ -5,6 +5,8 @@
 *.versionsBackup
 *.swp
 .ideas
+.classpath
+.project
 .idea
 .DS_Store
 .attach
