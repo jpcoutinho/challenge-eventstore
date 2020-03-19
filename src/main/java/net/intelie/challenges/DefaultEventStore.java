@@ -13,7 +13,7 @@ import java.util.Comparator;
 public class DefaultEventStore implements EventStore{
 	
 	/**
-	 * As we need a fast data structure to store key-value items, a hash table is one of the first as it provides expected constant-time performance O(1)
+	 * As we need a fast data structure to store key-value items, a hash table is a good choice as it provides expected constant-time performance O(1)
 	 * for most operations like add(), remove() and contains().
 	 *
 	 * We also know that our items will be searched by it's time stamp, so we need to keep the items sorted. In this case we
